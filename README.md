@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/openclaw-plugin-crw)](https://www.npmjs.com/package/openclaw-plugin-crw)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-[CRW](https://github.com/us/crw) web scraping plugin for [OpenClaw](https://github.com/openclaw/openclaw). Gives your AI agents the ability to scrape, crawl, and map websites.
+[CRW](https://github.com/fastcrw/crw) web scraping plugin for [OpenClaw](https://github.com/openclaw/openclaw). Gives your AI agents the ability to scrape, crawl, and map websites.
 
 ## Installation
 
@@ -34,7 +34,7 @@ That's it — cloud is the default. Your agents can now scrape, crawl, and map a
 Single binary, ~15 MB download, ~6 MB idle RAM. No Docker needed.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/us/crw/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/fastcrw/crw/main/install.sh | sh
 crw  # starts on http://localhost:3000
 ```
 
@@ -51,7 +51,7 @@ crw  # starts on http://localhost:3000
 ### Option C: Self-hosted with Docker
 
 ```bash
-docker run -d -p 3000:3000 ghcr.io/us/crw:latest
+docker run -d -p 3000:3000 ghcr.io/fastcrw/crw:latest
 ```
 
 ```json
