@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/us/openclaw-plugin-crw"
+    "url": "https://github.com/fastcrw/openclaw-plugin-crw"
   },
   "devDependencies": {
     "@sinclair/typebox": "^0.34.0",
